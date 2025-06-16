@@ -118,7 +118,7 @@ class Snake(GameObject):
             apple (Apple()): принимает экземпляр класса Apple()
 
         Returns:
-            bool: True - при продожении движения, False - при прекращении.
+            bool: True - при продожении движения, False при прекращении.
         """
         self.update_direction()
         head_x, head_y = self.positions[0]
